@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
+    <header class="header">
+        <h1>Grades Table</h1>
         <nav>
-            <h1>Welcome To My Grades Table</h1>
-            <ul> 
-                <li><a href="homepage.html">Home Page</a></li>
-                <li><a href="profile.html">Profile Page</a></li>
-                <li><a href="contact.html">Contact Page</a></li>     
-                <li><a href="course.html">course page</a></li>
-                <li><a href="grades table.html">grades table</a></li>
-                <li><a href="feedback.html">feedback Form</a></li>
-            </ul>   
+            <ul class="navbar">
+                <li><a href="index.html" class="nav-btn">Home Page</a></li>
+                <li><a href="profile.html" class="nav-btn">Profile Page</a></li>
+                <li><a href="course.html" class="nav-btn">Course Page</a></li>
+                <li><a href="gradestable.html" class="nav-btn">Grades Table</a></li>
+                <li><a href="contact.html" class="nav-btn">Contact Page</a></li>
+                <li><a href="feedback.html" class="nav-btn">Feedback Form</a></li>
+            </ul>
         </nav>
     </header>
-    
-  <main>
-       <table> 
+
+    <main>
+        <table>
             <caption>Student Grades Table</caption>
-              <br><br>
-         <thead>
-             <tr>
+            <br><br>
+            <thead>
+                <tr>
                     <th>Subject</th>
                     <th>Marks</th>
                     <th>Grade</th>
-           </tr>
+                </tr>
             </thead>
             <tbody>
                 <tr>
@@ -50,6 +52,7 @@
                     <td>95</td>
                     <td>A+</td>
                 </tr>
+
             </tbody>
 
             <tfoot>
@@ -60,8 +63,12 @@
         </table>
     </main>
 
-<footer>
-    <p>© 2025 My Website. All Rights Reserved.</p>
-</footer>
+    <button><a href="contact.html" class="button">Next</a></button>
+    <button><a href="course.html" class="button">Back</a></button>
+
+    <footer>
+        <p>© 2025 My Website. All Rights Reserved.</p>
+    </footer>
 </body>
+
 </html>
